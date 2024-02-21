@@ -6,16 +6,16 @@
     height: 100%;
     background-color: #F2F0EB;
     font-family: 'Michroma', sans-serif;
+ 
 }
 
 #kayla {
     font-size: 18px;
-    text-align: left; /* Added property to align text on the left */
-    padding-left: 20px;
+    text-align: left;
     color: #FF2C7A;
     font-family: 'Michroma', sans-serif;
-    padding-right: 1000px;
     justify-content: left;
+    padding-right: 1700px;
 }
 
 
@@ -50,6 +50,7 @@
 #name{
     font-size:80px;
     padding:-20px;
+    width:80%;
     text-align: center; /* Added property to align text on the left */
     color: #FF2C7A;
         font-family: 'Michroma', sans-serif;
