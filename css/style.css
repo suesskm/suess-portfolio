@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+.flex-container {
+    display: flex;
+    flex-direction: right;
+    width: 100%;
+    height: 100%;
+    background-color: #F2F0EB;
+    font-family: 'Michroma', sans-serif;
+}
+
+#kayla {
+    font-size: 18px;
+    text-align: left; /* Added property to align text on the left */
+    padding-left: 20px;
+    color: #FF2C7A;
+    font-family: 'Michroma', sans-serif;
+    padding-right: 700px;
+    justify-content: left;
+}
+
+
+#about{
+    font-size: 18px;
+    text-align: left; /* Added property to align text on the left */
+    color: #FF2C7A;
+    font-family: 'Michroma', sans-serif;
+    align-items: right;
+    padding-right: 20px;
+    justify-content: right;
+}
+
+
+#contact{
+    font-size: 18px;
+    text-align: left; /* Added property to align text on the left */
+    color: #FF2C7A;
+    font-family: 'Michroma', sans-serif;
+    align-items: right;
+}
+
+.flex-container2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    background-color: #F2F0EB;
+    font-family: 'Michroma', sans-serif;
+}
+#name{
+    font-size:80px;
+    text-align: center; /* Added property to align text on the left */
+    color: #FF2C7A;
+        font-family: 'Michroma', sans-serif;
+    
+    }
+  
+
+#description{
+    font-size: 24px;
+    text-align: left; /* Added property to align text on the left */
+    color: #FF2C7A;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.flex-container3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #F2F0EB;
+    align-items: center;
+    font-family: 'Michroma', sans-serif;
+}
+
+#postmodern-1{
+    width: 100%;
+    height: 25%;
+    
+}
+
+#bjork{
+    width: 100%;
+    height: 25%;
+}
+
+#trees{
+    width: 100%;
+    height: 25%;
+}
+
+#natk{
+    width: 120%;
+    height: 25%;
+}
+
+
+
