@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 .flex-container {
     display: flex;
-    flex-direction: right;
+    flex-direction: in-line;
     width: 100%;
     height: 100%;
     background-color: #F2F0EB;
@@ -14,7 +14,7 @@
     padding-left: 20px;
     color: #FF2C7A;
     font-family: 'Michroma', sans-serif;
-    padding-right: 700px;
+    padding-right: 1000px;
     justify-content: left;
 }
 
@@ -45,10 +45,11 @@
     height: 100%;
     align-items: center;
     background-color: #F2F0EB;
-    font-family: 'Michroma', sans-serif;
+    
 }
 #name{
     font-size:80px;
+    padding:-20px;
     text-align: center; /* Added property to align text on the left */
     color: #FF2C7A;
         font-family: 'Michroma', sans-serif;
@@ -62,6 +63,8 @@
     color: #FF2C7A;
     font-family: 'Montserrat', sans-serif;
 }
+    
+
 
 .flex-container3{
     display: flex;
