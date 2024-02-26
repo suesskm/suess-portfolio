@@ -25,20 +25,11 @@ body{
     color: #FF2C7A;
     font-family: 'Michroma', sans-serif;
     justify-content: left;
-    padding-right: 800px;
-    padding-left: 50px;
+    padding-right: 1150px;
+    padding-left: 25px;
 }
 
 
-#about{
-    font-size: 18px;
-    text-align: left; /* Added property to align text on the left */
-    color: #FF2C7A;
-    font-family: 'Michroma', sans-serif;
-    align-items: right;
-    padding-right: 20px;
-    justify-content: right;
-}
 
 
 #contact{
@@ -48,6 +39,7 @@ body{
     font-family: 'Michroma', sans-serif;
     align-items: right;
 }
+
 
 
 
@@ -81,15 +73,77 @@ h1{
     background-color: #F2F0EB;
     font-family: 'Montserrata', sans-serif;
     padding-top: 100px;
-    padding-right: 200px;
-    
+    padding-right: 200px;  
 
 }
+#form-container{
+    width: 100%;
+    height: 100%;
+    background-color: #F2F0EB;
+    font-family: 'Michroma', sans-serif;
+    flex-wrap: nowrap;
+    padding-right: 100px;
+    padding-left:-500px;
+    padding-bottom: 20px;
+}
+
+#submit{
+    font-size: 14px;
+    font-family: 'Michroma', sans-serif;
+    flex-wrap: nowrap;
+   
+}
+
+#submit:hover{
+  color:#FF2C7A
+   
+}
+
+
+
+@keyframes changeBackgroundColor {
+    0% {
+        background-color: red;
+    }
+    50% {
+        background-color: blue;
+    }
+    100% {
+        background-color: green;
+    }
+}
+
+.bg-anim {
+    animation: changeBackgroundColor 3s infinite;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: #FF2C7A;
+    
+}
+
+
 .flex-container-image{
  
     /* width: 25%;
     height: 50%; */
     font-family: 'Montserrata', sans-serif;
+    background-color: #F2F0EB;
+}
+
+
+#resume{
+    font-size: 24px;
+    text-align: left; /* Added property to align text on the left */
+    color: #FF2C7A;
+    font-family: 'Michroma', sans-serif;
+    align-items: left;
+    padding-left:50px;
+    padding-right:100px;
+   
 }
 
 
