@@ -40,6 +40,14 @@ body{
     align-items: right;
 }
 
+#random-stuff{
+    font-size: 18px;
+    text-align: left; /* Added property to align text on the left */
+    color: #FF2C7A;
+    font-family: 'Michroma', sans-serif;
+    align-items: right;
+}
+
 
 
 
@@ -63,7 +71,7 @@ h1{
     padding-right: 100px;
     padding-left: 100px;
     padding-bottom: 20px;
-    
+   
     
 }
 
@@ -72,8 +80,8 @@ h1{
     height: 50%; 
     background-color: #F2F0EB;
     font-family: 'Montserrata', sans-serif;
-    padding-top: 100px;
-    padding-right: 200px;  
+    /* padding-top: 100px;
+    padding-right: 200px;   */
 
 }
 #form-container{
@@ -82,9 +90,7 @@ h1{
     background-color: #F2F0EB;
     font-family: 'Michroma', sans-serif;
     flex-wrap: nowrap;
-    padding-right: 100px;
-    padding-left:-500px;
-    padding-bottom: 20px;
+   
 }
 
 #submit{
@@ -99,23 +105,6 @@ h1{
    
 }
 
-
-
-@keyframes changeBackgroundColor {
-    0% {
-        background-color: red;
-    }
-    50% {
-        background-color: blue;
-    }
-    100% {
-        background-color: green;
-    }
-}
-
-.bg-anim {
-    animation: changeBackgroundColor 3s infinite;
-}
 
 
 
@@ -385,13 +374,77 @@ a{
     /* height: 100%; */
 }
 
-#form-container{
+/* #form-container{
     width: 100%;
     height: 100%;
     background-color: #F2F0EB;
     font-family: 'Michroma', sans-serif;
     flex-wrap: nowrap;
+    padding-left: 0px;
+    padding-bottom: 0px;
+} */
+
+/* #text{
+    font-size: 14px;
+    font-family: 'Michroma', sans-serif;
+    flex-wrap: nowrap;
     padding-right: 100px;
     padding-left: 100px;
     padding-bottom: 20px;
+    position: absolute
+} */
+
+.flex-item{
+    width: 10%;
+    margin: 10px;
+    text-align:center;
+    font-size: 14px;
+    font-family: 'Michroma', sans-serif;
+
+    
+}
+
+#robot{
+    width: 75%;
+    margin-top: -100px;
+}
+
+#clickButton{
+    margin-top: 10%; 
+    width: 100%;
+    height: 100%;
+    background-color: #F2F0EB;
+    font-family: 'Michroma', sans-serif;
+    flex-wrap: nowrap;
+    padding-left: 0px;
+    padding-bottom: 0px; 
+} 
+
+
+#myButton{
+    margin-top: 10%;
+    width: 100%;
+    height: 100%;
+    background-color: #F2F0EB;
+    font-family: 'Michroma', sans-serif;
+    flex-wrap: nowrap;
+    padding-left: 0px;
+    padding-bottom: 0px; 
+}
+
+
+@keyframes changeBackgroundColor {
+    0% {
+        background-color: rgb(201, 25, 169);
+    }
+    50% {
+        background-color: rgb(47, 178, 198);
+    }
+    100% {
+        background-color: rgb(189, 222, 25);
+    }
+}
+
+.bg-anim {
+    animation: changeBackgroundColor 3s infinite;
 }
