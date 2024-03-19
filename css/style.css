@@ -22,7 +22,7 @@ body{
 #kayla {
     font-size: 18px;
     text-align: left;
-    color: #FF2C7A;
+    color: #000000;
     font-family: 'Michroma', sans-serif;
     justify-content: left;
     padding-right: 1000px;
@@ -36,7 +36,7 @@ body{
 #contact{
     font-size: 18px;
     text-align: left; /* Added property to align text on the left */
-    color: #FF2C7A;
+    color: #000000;
     font-family: 'Michroma', sans-serif;
     align-items: right;
     padding-right: 10px;
@@ -45,7 +45,7 @@ body{
 #random-stuff{
     font-size: 18px;
     text-align: left; /* Added property to align text on the left */
-    color: #FF2C7A;
+    color: #000000;
     font-family: 'Michroma', sans-serif;
     align-items: right;
     text-wrap: nowrap;
@@ -66,7 +66,7 @@ body{
     /* padding-bottom: -100px; */
     /* width:80%; */
     text-align: center; /* Added property to align text on the left */
-    color: #FF2C7A;
+    color: #000000;
         font-family: 'Michroma', sans-serif;
         justify-content: center;
     
@@ -76,18 +76,20 @@ body{
 .flex-container3{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 60%;
     height: 100%;
     background-color: #F2F0EB;
     align-items: center;
-    font-family: 'Michroma', sans-serif;
+    margin-top: 100px;
+  justify-content: center;
+
 }
 
 #description{
-    font-size: 24px;
+    font-size: 18px;
     text-align: left; /* Added property to align text on the left */
-    color: #FF2C7A;
-    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-family: 'Courier', sans-serif;
     padding-left:50px;
     padding-right:50px;
 }
@@ -322,7 +324,7 @@ a{
     width: 100%;
     height: 25%;
     object-fit: cover;
-    object-position: 80% 35%;
+    object-position: 80% 90%;
     margin-top:0px; 
 }
 #cal:hover{
