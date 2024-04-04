@@ -79,6 +79,7 @@ h1{
 .flex-container-description{
     width: 350vw;
     height: 50%; 
+    padding-right: 100px;
     background-color: #F2F0EB;
     font-family: 'Montserrata', sans-serif;
     /* padding-top: 100px;
