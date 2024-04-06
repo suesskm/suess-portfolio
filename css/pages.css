@@ -511,11 +511,12 @@ h1{
 }
 
 .flex-container-description{
-    width: 30vw;
+    width: 100vw;
     height: 50%; 
     font-size: 12px;
     background-color: #F2F0EB;
     font-family: 'Montserrata', sans-serif;
+    justify-content: center;
     /* padding-top: 100px;
     padding-right: 200px;   */
 
@@ -527,6 +528,23 @@ h1{
     height: 100%; 
     font-family: 'Montserrata', sans-serif;
     background-color: #F2F0EB;
+}
+
+#contact{
+    font-size: 12px;
+    text-align: left; /* Added property to align text on the left */
+    color: #000000;
+    font-family: 'Michroma', sans-serif;
+    align-items: right;
+    padding-right: 10px;
+}
+
+#random-stuff{
+    font-size: 12px;
+    text-align: left; /* Added property to align text on the left */
+    color: #000000;
+    font-family: 'Michroma', sans-serif;
+    align-items: right;
 }
 
 #postmodern{
