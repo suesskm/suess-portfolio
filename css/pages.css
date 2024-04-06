@@ -487,9 +487,9 @@ a{
     }
 
     #kayla {
-        font-size: 18px;
+        font-size: 12px;
         text-align: left;
-        color: #FF2C7A;
+        color: #000000;
         font-family: 'Michroma', sans-serif;
         justify-content: left;
         padding-right:200px;
@@ -500,7 +500,7 @@ a{
 
 h1{
     font-size: 12px;
-    color: #FF2C7A;
+    color: #000000;
     font-family: 'Michroma', sans-serif;
     padding-top: 100px;
     padding-right: 80px;
