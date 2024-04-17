@@ -391,27 +391,27 @@ h2{
  @media (max-width: 320px) and (max-height: 627px) {
         #kayla{
             font-size: 2px;
-            padding-right: 10px;
-            padding-left: 10px;
+            padding-right: 5px;
+            padding-left: 5px;
             text-wrap: nowrap;
 
         }
        
         #contact{
             font-size: 2px;
-            padding-right: 10px;
-            padding-left: 10px;
+            padding-right: 5px;
+            padding-left: 5px;
         }
        
         #resume{
             font-size: 2px;
-            padding-right: 10px;
-            padding-left: 10px;
+            padding-right: 5px;
+            padding-left: 5px;
         }
 
         .dropdown{
             font-size: 2px;
-            padding-right: 10px;
+            padding-right: 5px;
             padding-left: 10px;
         }
 
