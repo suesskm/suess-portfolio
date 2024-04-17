@@ -25,9 +25,11 @@ body{
     color: #000000;
     font-family: 'Michroma', sans-serif;
     justify-content: left;
-    padding-right: 10px;
+    padding-right: 20px;
     padding-left:25px;
     text-wrap: nowrap;
+    text-decoration: none;
+    
 }
 
 
@@ -36,7 +38,8 @@ body{
     text-align: left; /* Added property to align text on the left */
     color: #000000;
     font-family: 'Michroma', sans-serif;
-    padding-right: 10px;
+    padding-right: 20px;
+    text-decoration: none;
 }
 
 #random-stuff{
@@ -46,7 +49,8 @@ body{
     font-family: 'Michroma', sans-serif;
 
     text-wrap: nowrap;
-    padding-right: 10px;
+    padding-right: 20px;
+    text-decoration: none;
 }
 
 .flex-container-main{
@@ -103,8 +107,7 @@ h2{
     font-family: 'Michroma', sans-serif;
     align-items: center;
     justify-content: center;
-   
-  
+
 } 
 
 .flexbox-bjork{
@@ -251,6 +254,7 @@ h2{
             font-size: 6px;
             padding-right: 10px;
             padding-left: 10px;
+
         }
        
         #contact{
@@ -302,5 +306,12 @@ h2{
             padding-bottom: 30px;
         }
        
+        #postmodern{
+         margin-top:20px;
+         width: 100%;
+         object-fit: cover;
+         object-position: 50% 50%;
+            
+        }
          
        }
