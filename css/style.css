@@ -19,6 +19,7 @@ body{
  
 }
 
+
 #kayla {
     font-size: 18px;
     text-align: left;
@@ -32,6 +33,10 @@ body{
     
 }
 
+#kayla:hover{
+    color: #da407b;
+}
+
 
 #contact{
     font-size: 18px;
@@ -42,47 +47,121 @@ body{
     text-decoration: none;
 }
 
-#random-stuff{
+#contact:hover{
+    color: #da407b;
+}
+
+#resume{
     font-size: 18px;
     text-align: left; /* Added property to align text on the left */
     color: #000000;
     font-family: 'Michroma', sans-serif;
-
     text-wrap: nowrap;
     padding-right: 20px;
     text-decoration: none;
 }
 
+#resume:hover{
+    color: #da407b;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    font-size: 18px;
+    text-align: left; /* Added property to align text on the left */
+    color: #000000;
+    font-family: 'Michroma', sans-serif;
+    text-decoration: none;
+   
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding-left:10px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #F2F0EB;
+  min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+border-color:#000000;
+  z-index: 1;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #da407b;}
+
 .flex-container-main{
-    display: block;
-    flex-direction: column;
+    display: flex;
+    flex-direction: inline;
     width: 100%;
-    height: 300px;
-    /* align-items: center; */
+    height: 200px;
     background-color: #F2F0EB;
-    /* justify-content: left; */
+   
   
     
 
 }
 h1{
-    font-size:100px;
-    text-align: left; /* Added property to align text on the left */
+    font-size:80px;
+    text-align: center; /* Added property to align text on the left */
     color: #000000;
         font-family: 'Michroma', sans-serif;
-        justify-content: left;
+        justify-content: center;
     margin-top: 20px;
+    flex-wrap: nowrap;
+    flex-direction: flex;
+    margin-left: 300px;
+    margin-right: auto;
+
     }
   
 
 h2{
-    font-size: 18px;
-    text-align: left; /* Added property to align text on the left */
+    font-size: 100px;
+    text-align: center; /* Added property to align text on the left */
     color: #000000;
-    font-family: 'Courier', sans-serif;
-    padding-left: 10px;
-    padding-right:50px;
-    padding-bottom: 100px;
+    font-family: 'Michroma', sans-serif;
+    margin-left: 0px;
+     margin-right: 300px;
+     flex-wrap: nowrap;
+     animation: colorchange 5s infinite;
+
+
+
+}
+
+@keyframes colorchange {
+    0% {
+        color: #000000;
+    }
+    50% {
+        color: #da407b;
+    }
+    100% {
+        color: #000000;
+    }
 }
     
 
@@ -94,7 +173,6 @@ h2{
     height: 100%;
     background-color: #F2F0EB;
     justify-content: center;
-    margin-top: 50px;
     
 }
 

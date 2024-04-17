@@ -29,8 +29,9 @@ body{
     padding-right: 20px;
 }
 
-
-
+#kayla:hover{
+    color: #da407b;
+}
 
 #contact{
     font-size: 18px;
@@ -39,7 +40,11 @@ body{
     padding-right: 20px;
 }
 
-#random-stuff{
+#contact:hover{
+    color: #da407b;
+}
+
+#resume{
     font-size: 18px;
     text-align: left; /* Added property to align text on the left */
     color: #000000;
@@ -47,7 +52,9 @@ body{
     padding-right: 20px;
 }
 
-
+#resume:hover{
+    color: #da407b;
+}
 
 
 .flexbox{
@@ -104,16 +111,7 @@ p{
 
 
 
-#resume{
-    font-size: 24px;
-    text-align: left; /* Added property to align text on the left */
-    color: #FF2C7A;
-    font-family: 'Michroma', sans-serif;
-    align-items: left;
-    padding-left:50px;
-    padding-right:100px;
-   
-}
+
 
 
 #postmodern{
@@ -172,7 +170,7 @@ p{
         padding-left: 10px;
     }
    
-    #random-stuff{
+    #resume{
         font-size: 6px;
         padding-right: 10px;
         padding-left: 10px;
