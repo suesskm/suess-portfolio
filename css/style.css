@@ -390,32 +390,32 @@ h2{
 
  @media (max-width: 320px) and (max-height: 627px) {
         #kayla{
-            font-size: 5px;
+            font-size: 4px;
             padding-right: 10px;
             padding-left: 10px;
 
         }
        
         #contact{
-            font-size: 5px;
+            font-size: 4px;
             padding-right: 10px;
             padding-left: 10px;
         }
        
         #resume{
-            font-size: 5px;
+            font-size: 4px;
             padding-right: 10px;
             padding-left: 10px;
         }
 
         .dropdown{
-            font-size: 5px;
+            font-size: 4px;
             padding-right: 10px;
             padding-left: 10px;
         }
 
         .dropbtn {
-            font-size: 5px;
+            font-size: 4px;
             text-align: left; /* Added property to align text on the left */
             color: #000000;
             font-family: 'Michroma', sans-serif;
@@ -439,9 +439,10 @@ h2{
        
          h1{
            display:block;
-            font-size: 20px;
+            font-size: 15px;
             margin-left: auto;
             margin-right:auto;
+            padding-bottom: 10px;
          
          }
        
