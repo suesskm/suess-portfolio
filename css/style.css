@@ -173,6 +173,7 @@ h2{
     height: 100%;
     background-color: #F2F0EB;
     justify-content: center;
+    text-decoration:none;
     
 }
 
@@ -185,8 +186,64 @@ h2{
     font-family: 'Michroma', sans-serif;
     align-items: center;
     justify-content: center;
+    text-decoration:none;
 
 } 
+
+.images {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    text-decoration:none;
+/*   
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 50% 100%;
+        opacity: 1;
+        transition: .5s ease;
+        backface-visibility: hidden;  */
+     
+        
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    text-decoration:none;
+  }
+  
+  /* .flexbox-postmodern:hover {
+    opacity: 0.3;
+    text-decoration:none
+  }
+  
+  .flexbox-postmodern:hover .middle {
+    opacity: 1;
+    text-decoration:none;
+  } */
+  
+  .text {
+    background-color: #F2F0EB;
+    color: black;
+    font-size: 60px;
+    padding: 16px 32px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration:none;
+
+  }
+
+
+
 
 .flexbox-bjork{
     display: block;
@@ -196,11 +253,7 @@ h2{
     background-color: #F2F0EB;
     align-items: center;
     justify-content: center;
-
-  
-
 } 
-
 
 
 .flexbox-trees{
@@ -212,30 +265,9 @@ h2{
     align-items: center;
     justify-content: center;
 
-  
-
 } 
 
-.flexbox-rioscal{
-    display: block;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    background-color: #F2F0EB;
-    align-items: center;
-    justify-content: center;
-}
 
- .images{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: 50% 100%;
-    opacity: 1;
-    transition: .5s ease;
-    backface-visibility: hidden; 
- 
-    }   
 
     #postmodern{
         width: 100%;
@@ -245,6 +277,9 @@ h2{
         
     }  
 
+    #postmodern:hover{
+        opacity: 0.3;
+    }
 
  #bjork{
     width: 100%;
@@ -255,14 +290,21 @@ h2{
     
 }  
 
+#bjork:hover{
+    opacity: 0.3;
+}
+
 #forum{
     width: 100%;
     height: 300px;
     object-fit: cover;
     object-position: 50% 15%;
     margin-top:-5px;
-    
 
+}
+
+#forum:hover{
+    opacity: 0.3;
 }
 
 #riso{
@@ -275,6 +317,10 @@ h2{
 
 }
 
+#riso:hover{
+    opacity: 0.3;
+}
+
 #lamosca{
     width: 100%;
     height: 300px;
@@ -282,6 +328,10 @@ h2{
     object-position: 50% 80%;
     margin-top:-5px;
     
+}
+
+#lamosca:hover{
+    opacity: 0.3;
 }
 
 #trees{
@@ -293,6 +343,10 @@ h2{
     
 }
 
+#trees:hover{
+    opacity: 0.3;
+}
+
 #longing{
     width: 100%;
     height: 300px;
@@ -300,9 +354,12 @@ h2{
     object-position: 50% 50%;
     margin-top:-5px;
     
-
 }
 
+
+#longing:hover{
+    opacity: 0.3;
+}
 
 #cal{
     width: 100%;
@@ -310,9 +367,12 @@ h2{
     object-fit: cover;
     object-position: 50% 50%;
     margin-top:-5px;
-    
 
 
+}
+
+#cal:hover{
+    opacity: 0.3;
 }
 
 
@@ -329,22 +389,37 @@ h2{
 
  @media (max-width: 320px) and (max-height: 627px) {
         #kayla{
-            font-size: 6px;
+            font-size: 5px;
             padding-right: 10px;
             padding-left: 10px;
 
         }
        
         #contact{
-            font-size: 6px;
+            font-size: 5px;
             padding-right: 10px;
             padding-left: 10px;
         }
        
-        #random-stuff{
-            font-size: 6px;
+        #resume{
+            font-size: 5px;
             padding-right: 10px;
             padding-left: 10px;
+        }
+
+        .dropdown{
+            font-size: 5px;
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+
+        .dropbtn {
+            font-size: 5px;
+            text-align: left; /* Added property to align text on the left */
+            color: #000000;
+            font-family: 'Michroma', sans-serif;
+            text-decoration: none;
+           
         }
        
         .flex-container-pages{
@@ -363,9 +438,9 @@ h2{
        
          h1{
            display:block;
-           margin-left:auto;
-           margin-right:auto;
-            font-size: 24px;
+            font-size: 20px;
+            margin-left: auto;
+            margin-right:auto;
          
          }
        
@@ -385,7 +460,7 @@ h2{
         }
        
         #postmodern{
-         margin-top:20px;
+         /* margin-top:20px; */
          width: 100%;
          object-fit: cover;
          object-position: 50% 50%;
