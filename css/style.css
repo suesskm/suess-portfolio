@@ -470,7 +470,7 @@ h2{
 
         .flex-container-main{
             display: block;
-            /* flex-direction: inline; */
+            flex-direction: column;
             width: 100%;
             height: 300px;
             background-color: #F2F0EB;
