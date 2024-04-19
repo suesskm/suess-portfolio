@@ -461,6 +461,18 @@ h2{
             font-size: 10px;
             padding-bottom: 30px;
         }
+
+        .flex-container-main{
+            display: block;
+            flex-direction: inline;
+            width: 100%;
+            height: 200px;
+            background-color: #F2F0EB;
+           
+          
+            
+        
+        }
     
     #postmodern{
         /* margin-top:20px; */
