@@ -495,10 +495,7 @@ h2{
 
 
 @media (max-width: 375px) and (max-height: 627px) {
-   .flex-container-header{
-        flex-direction: row;
-
-     }
+ 
    
     #kayla{
         font-size: 2px;
