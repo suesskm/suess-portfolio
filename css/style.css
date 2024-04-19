@@ -529,26 +529,26 @@ h2{
     }
    
     #contact{
-        font-size: 4px;
+        font-size: 4.rem;
         padding-right: 5px;
         padding-left: 3px;
     }
    
     #resume{
-        font-size: 4px;
+        font-size: 4.rem;
         padding-right: 5px;
         padding-left: 3px;
     }
 
 
     .dropdown{
-        font-size: 4px;
+        font-size: 4.rem;
         padding-right: 5px;
         padding-left: 8px;
     }
 
     .dropbtn {
-        font-size: 4px;
+        font-size: 4.rem;
         text-align: left; 
         color: #000000;
         font-family: 'Michroma', sans-serif;
@@ -569,7 +569,7 @@ h2{
      }
   
      h1{
-        font-size: 12px;
+        font-size: 12.rem;
         margin-left: auto;
         margin-right:auto;
         padding-bottom: 50px;
@@ -578,7 +578,7 @@ h2{
      }
    
      h2{
-        font-size: 20px;
+        font-size: 20.rem;
         padding-top: 20px;
         padding-right: 10px;
         padding-bottom: 30px;
