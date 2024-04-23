@@ -97,8 +97,8 @@ p{
    flex-direction: column;
    margin-left: auto;
    margin-right: auto;
-    width: 80%;
-    height: 80%; 
+    width: 60%;
+    height: 60%; 
     /* padding-right: 400px;
     padding-left: 400px; */
     background-color: #F2F0EB;
@@ -218,7 +218,7 @@ flex-wrap: nowrap;
 }
 
 #about{
-    width: 100%;
+    width:20%;
     /* height: 100%; */
     
 
@@ -298,7 +298,7 @@ flex-wrap: nowrap;
    
 /* ---------------iphone 10 --------------*/
 
-@media (min-width: 375px) and (max-height: 812px) {
+@media (max-width: 475px) and (max-height: 812px) {
     #kayla{
         font-size: 12px;
         padding-right: 10px;
