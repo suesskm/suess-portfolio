@@ -429,7 +429,7 @@ h2{
 
 /* ---------------iphone 10 --------------*/
 
-@media (max-width: 375px) and (max-height: 812px) {
+@media (min-width: 375px) and (max-height: 812px) {
     .flex-container-header {
          display: block;
          flex-direction: in-line;
@@ -581,7 +581,7 @@ h2{
 
 /* ---------------iphone 5/SE --------------*/
 
- @media (max-width: 320px) and (max-height: 627px) {
+ @media (min-width: 320px) and (max-height: 627px) {
    .flex-container-header {
         display: block;
         flex-direction: in-line;
