@@ -97,8 +97,8 @@ p{
    flex-direction: column;
    margin-left: auto;
    margin-right: auto;
-    width: 60%;
-    height: 60%; 
+    width: 50%;
+    height: 50%; 
     /* padding-right: 400px;
     padding-left: 400px; */
     background-color: #F2F0EB;
@@ -218,8 +218,9 @@ flex-wrap: nowrap;
 }
 
 #about{
-    width:20%;
+    width:50%;
     /* height: 100%; */
+ 
     
 
 }
