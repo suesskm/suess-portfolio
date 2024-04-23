@@ -442,7 +442,7 @@ h2{
  
  
      #kayla{
-             font-size: 8px;
+             font-size: 12px;
              padding-right: 5px;
              padding-left: 3px;
              text-wrap: nowrap;
@@ -450,25 +450,25 @@ h2{
          }
         
          #contact{
-             font-size: 8px;
+             font-size: 12px;
              padding-right: 5px;
              padding-left: 3px;
          }
         
          #resume{
-             font-size: 8px;
+             font-size: 12px;
              padding-right: 5px;
              padding-left: 3px;
          }
  
          .dropdown{
-             font-size: 8px;
+             font-size: 12px;
              padding-right: 5px;
              padding-left: 7px;
          }
  
          .dropbtn {
-             font-size: 8px;
+             font-size: 12px;
              text-align: left; 
              color: #000000;
              font-family: 'Michroma', sans-serif;
@@ -514,7 +514,7 @@ h2{
              /* display: block; */
              flex-direction: inline;
              width: 100%;
-             height: 300px;
+             height: 150px;
              background-color: #F2F0EB;
             
          
@@ -570,10 +570,7 @@ h2{
         }
  
  
-        .flexbox-postmodern{
-         display: flex;
-         flex-direction: column;
-        }
+     
           
         }
  
@@ -594,7 +591,7 @@ h2{
 
 
     #kayla{
-            font-size: 2px;
+            font-size: 8px;
             padding-right: 5px;
             padding-left: 3px;
             text-wrap: nowrap;
@@ -602,25 +599,25 @@ h2{
         }
        
         #contact{
-            font-size: 4px;
+            font-size: 8px;
             padding-right: 5px;
             padding-left: 3px;
         }
        
         #resume{
-            font-size: 4px;
+            font-size: 8px;
             padding-right: 5px;
             padding-left: 3px;
         }
 
         .dropdown{
-            font-size: 4px;
+            font-size: 8px;
             padding-right: 5px;
             padding-left: 7px;
         }
 
         .dropbtn {
-            font-size: 4px;
+            font-size: 8px;
             text-align: left; 
             color: #000000;
             font-family: 'Michroma', sans-serif;
