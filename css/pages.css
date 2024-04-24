@@ -218,13 +218,19 @@ flex-wrap: nowrap;
 }
 
 #about{
-    width:50%;
+    width:60%;
    margin-top: 50px;
-   margin-left:100px;
-   
- 
-    
+   margin-left:120px;
 
+
+}
+
+#abouttext{
+    text-decoration: none;
+}
+
+#abouttext:hover{
+    color: #da407b;
 }
 
 /* ---------------iphone 5/SE --------------*/
@@ -267,7 +273,7 @@ flex-wrap: nowrap;
        display:block;
        margin-left:auto;
        margin-right:auto;
-        font-size: 20px;
+        font-size: 10px;
         padding-right: 10px;
         padding-left: 10px;
      
