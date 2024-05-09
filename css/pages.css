@@ -254,23 +254,68 @@ flex-wrap: nowrap;
 /* ---------------iphone 5/SE --------------*/
 
 @media (max-width: 320px) and (max-height: 627px) {
-    #kayla{
-        font-size: 6px;
-        padding-right: 10px;
-        padding-left: 10px;
+    .flex-container-header {
+        display: none;
+    
 
+     
     }
+
+    .mobile-container {
+       max-width: 480px;
+       margin: auto;
+       background-color: #F2F0EB;
+       height: 500px;;
+       border-radius: 10px;
+       display: block;
+       padding-bottom: 20px;
+     }
+     
    
-    #contact{
-        font-size: 6px;
-        padding-right: 10px;
-        padding-left: 10px;
+     
+     .topnav #myLinks {
+       display: none;
+     }
+     
+     .topnav a {
+       color: black;
+       padding: 14px 16px;
+       text-decoration: none;
+       font-family: 'courier new', sans-serif;
+       font-size: 17px;
+       display: block;
+       background-color: #F2F0EB;
+     }
+     
+     .topnav a.icon {
+      background-color:#F2F0EB ;
+       display: block;
+       position: absolute;
+       right: 0;
+       top: 0;
+     }
+     
+     .topnav a:hover {
+       background-color: #da407b;
+      
+     }
+     
+     .active {
+   
+       color: #F2F0EB;
+     }
+
+    .flex-container-main{
+       display: none;
     }
-   
+
     #resume{
-        font-size: 6px;
-        padding-right: 10px;
-        padding-left: 10px;
+       font-family: 'courier new', sans-serif;
+    }
+
+
+    #contact{
+       font-family: 'courier new', sans-serif;
     }
    
     .flex-container-pages{
@@ -347,7 +392,7 @@ flex-wrap: nowrap;
       }
       
       .topnav a.icon {
-       background-color: #da407b;
+       background-color: #F2F0EB;
         display: block;
         position: absolute;
         right: 0;
