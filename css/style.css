@@ -12,9 +12,8 @@ body{
 .mobile-container {
     max-width: 480px;
     margin: auto;
-    background-color: #555;
+   background-color: #F2F0EB;
     height: 500px;
-    color: white;
     border-radius: 10px;
     display: none;
   }
@@ -26,7 +25,7 @@ body{
   }
   
   .topnav a {
-    color: white;
+    color: #F2F0EB;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -42,13 +41,13 @@ body{
   }
   
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: #F2F0EB;
    
   }
   
   .active {
 
-    color: white;
+    color: #F2F0EB;
   }
 
 .flex-container-header {
@@ -84,7 +83,7 @@ body{
     font-size: 18px;
     text-align: left; /* Added property to align text on the left */
     color: #000000;
-    font-family: 'Michroma', sans-serif;
+    font-family: 'courier', sans-serif;
     padding-right: 20px;
     text-decoration: none;
 }
@@ -97,7 +96,7 @@ body{
     font-size: 18px;
     text-align: left; /* Added property to align text on the left */
     color: #000000;
-    font-family: 'Michroma', sans-serif;
+    font-family: 'courier', sans-serif;
     text-wrap: nowrap;
     padding-right: 20px;
     padding-left: 10px;
@@ -482,9 +481,8 @@ h2{
      .mobile-container {
         max-width: 480px;
         margin: auto;
-        background-color: #555;
-        height: 500px;
-        color: white;
+        background-color: #F2F0EB;
+        height: 500px;;
         border-radius: 10px;
         display: block;
         padding-bottom: 40px;
@@ -493,15 +491,17 @@ h2{
     
       
       .topnav #myLinks {
-        display: flex;
+        display: none;
       }
       
       .topnav a {
-        color: white;
+        color: black;
         padding: 14px 16px;
         text-decoration: block;
+        font-family: 'courier new', sans-serif;
         font-size: 17px;
         display: block;
+        background-color: #F2F0EB;
       }
       
       .topnav a.icon {
@@ -513,42 +513,19 @@ h2{
       }
       
       .topnav a:hover {
-        background-color: #ddd;
+        background-color: #da407b;
        
       }
       
       .active {
     
-        color: white;
+        color: #F2F0EB;
       }
 
      .flex-container-main{
         display: none;
      }
- 
- 
-     #kayla{
-             font-size: 12px;
-             padding-right: 5px;
-             padding-left: 3px;
-             text-wrap: nowrap;
-             display: none;
- 
-         }
-        
-         #contact{
-             font-size: 12px;
-             padding-right: 5px;
-             padding-left: 3px;
-             display: none;
-         }
-        
-         #resume{
-             font-size: 12px;
-             padding-right: 5px;
-             padding-left: 3px;
-                display: none;
-         }
+
  
         
          .flex-container-pages{
@@ -564,18 +541,22 @@ h2{
           }
         
           h1{
-             font-size: 10px;
-             /* padding-bottom: 50px; */
+             font-size: 30px;
+             margin-top: auto;
+             margin-right: auto;
              flex-direction: inline;
+             flex-wrap: nowrap;
+             justify-content: left;
             
           
           }
         
           h2{
              font-size: 40px;
-             padding-top: 20px;
-             padding-right: 10px;
-             padding-bottom: 30px;
+             /* padding-top: 20px;
+             padding-right: 10px; */
+             flex-direction: inline;
+             flex-wrap: nowrap;
           
           }
         
