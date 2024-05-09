@@ -13,19 +13,39 @@
 <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="flex-container-header">
+    <!-- <div class="flex-container-header">
 
         <a href="https://suesskm.github.io/suess-portfolio/" id="kayla">Kayla Suess</a>
-        <!-- <a href="html/contact.html"id="contact">Contact</a> -->
+      
         <a href="https://www.linkedin.com/in/kayla-suess1/"id="contact">LinkedIn</a>
         <a href="https://drive.google.com/file/d/13CASPPf21mC_VoudvWzQ_vcd3SQ6RDgz/view?usp=sharing"id="resume">Resume</a>
         
+    </div> -->
+
+         <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Top Navigation Menu -->
+  <div class="topnav">
+    <a href="https://kaylasuess.com/" class="active"> <h1>Kayla Suess</h1>
+      <!-- <h2>*</h2> -->
+  </a>
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+      <a href="https://drive.google.com/file/d/13CASPPf21mC_VoudvWzQ_vcd3SQ6RDgz/view?usp=sharing"id="resume"> Resume</a>
+      <a href="https://www.linkedin.com/in/kayla-suess1/"id="contact">LinkedIn</a>
+      <a href="../html/about.html"id="contact">About</a>
     </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div> 
   
     <div class="flex-container-pages">    
        
 
-        <h1>chicago tree infographic</h1>
+        <h3>chicago tree infographic</h3>
         
         <p>
             I designed an infographic to highlight the issue of tree population density in Chicago, particularly focusing on disparities in less affluent areas of the city. This infographic was specifically tailored for an Instagram post, where the aim was to grab the attention of users scrolling through their feeds. To achieve this, I carefully curated a color palette intended to captivate viewers and compel them to pause and explore the post further. 
@@ -64,6 +84,18 @@
     <a href="https://www.linkedin.com/in/kayla-suess1/"id="contact">LinkedIn</a>
     <a href="https://drive.google.com/file/d/13CASPPf21mC_VoudvWzQ_vcd3SQ6RDgz/view?usp=sharing"id="resume">Resume</a>
 </div>
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
+
 
 </body>
 

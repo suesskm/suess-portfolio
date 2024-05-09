@@ -83,7 +83,7 @@ body{
     font-size: 18px;
     text-align: left; /* Added property to align text on the left */
     color: #000000;
-    font-family: 'courier', sans-serif;
+    font-family: 'michroma', sans-serif;
     padding-right: 20px;
     text-decoration: none;
 }
@@ -96,7 +96,7 @@ body{
     font-size: 18px;
     text-align: left; /* Added property to align text on the left */
     color: #000000;
-    font-family: 'courier', sans-serif;
+    font-family: 'michroma', sans-serif;
     text-wrap: nowrap;
     padding-right: 20px;
     padding-left: 10px;
@@ -485,7 +485,7 @@ h2{
         height: 500px;;
         border-radius: 10px;
         display: block;
-        padding-bottom: 40px;
+        padding-bottom: 20px;
       }
       
     
@@ -526,7 +526,14 @@ h2{
         display: none;
      }
 
+     #resume{
+        font-family: 'courier new', sans-serif;
+     }
  
+
+     #contact{
+        font-family: 'courier new', sans-serif;
+     }
         
          .flex-container-pages{
              display: block;
@@ -547,6 +554,7 @@ h2{
              flex-direction: inline;
              flex-wrap: nowrap;
              justify-content: left;
+             text-decoration: none;
             
           
           }
