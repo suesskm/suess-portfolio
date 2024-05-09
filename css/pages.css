@@ -462,9 +462,13 @@ h3{
    
     p{
         font-size: 10px;
-        padding-bottom: 20px;
-        margin-left: 10px;
-        margin-right: 10px;
+        width: 80%;
+        /* object-fit: cover; */
+        /* object-position: 50% 50%; */
+        padding-left: 50px;
+           padding-right: 20px;
+           padding-bottom: 20px;
+           justify-content: center;
     }
 }
    
@@ -479,7 +483,77 @@ h3{
    padding-right: 20px;
 }
 
-    
+#postmodern{
+    width: 80%;
+    /* object-fit: cover; */
+    /* object-position: 50% 50%; */
+    padding-left: 50px;
+       padding-right: 20px;
+       padding-bottom: 20px;
+       justify-content: center;
+}
+
+
+    #forum{   width: 80%;
+        /* object-fit: cover; */
+        /* object-position: 50% 50%; */
+        padding-left: 50px;
+           padding-right: 20px;
+           padding-bottom: 20px;
+           justify-content: center;
+        }
+
+        #longing{
+            width: 80%;
+            /* object-fit: cover; */
+            /* object-position: 50% 50%; */
+            padding-left: 50px;
+               padding-right: 20px;
+               padding-bottom: 20px;
+               justify-content: center;
+        }
+
+        #riso{
+            width: 80%;
+            /* object-fit: cover; */
+            /* object-position: 50% 50%; */
+            padding-left: 50px;
+               padding-right: 20px;
+               padding-bottom: 20px;
+               justify-content: center;
+        }
+
+        #bjork{
+            width: 80%;
+            /* object-fit: cover; */
+            /* object-position: 50% 50%; */
+            padding-left: 50px;
+               padding-right: 20px;
+               padding-bottom: 20px;
+               justify-content: center;
+        }
+
+        #lamosca{
+            width: 80%;
+            /* object-fit: cover; */
+            /* object-position: 50% 50%; */
+            padding-left: 50px;
+               padding-right: 20px;
+               padding-bottom: 20px;
+               justify-content: center;
+        }
+
+        #trees{
+            width: 80%;
+            /* object-fit: cover; */
+            /* object-position: 50% 50%; */
+            padding-left: 50px;
+               padding-right: 20px;
+               padding-bottom: 20px;
+               justify-content: center;
+        }
+
+        
     
      
    

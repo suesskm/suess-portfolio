@@ -592,40 +592,74 @@ h2{
          }
      
      #postmodern{
-         width: 100%;
-         object-fit: cover;
-         object-position: 50% 50%;
+         width: 80%;
+         /* object-fit: cover; */
+         /* object-position: 50% 50%; */
+         padding-left: 50px;
+            padding-right: 20px;
+            padding-bottom: 20px;
+            justify-content: center;
             
         }
     
         #forum{
-            width: 100%;
-            object-fit: cover;
-            object-position: 50% 40%;
+            width: 80%;
+            /* object-fit: cover; */
+            /* object-position: 50% 50%; */
+            padding-left: 50px;
+               padding-right: 20px;
+               padding-bottom: 20px;
+               justify-content: center;
         }
     
         #cal{
-            width: 100%;
-            object-fit: cover;
-            object-position: 80% 100%;
+            width: 80%;
+         /* object-fit: cover; */
+         /* object-position: 50% 50%; */
+         padding-left: 50px;
+            padding-right: 20px;
+            padding-bottom: 20px;
+            justify-content: center;
         }
     
         #lamosca{
-            width: 100%;
-            object-fit: cover;
-            object-position: 50% 80%;
+            width: 80%;
+            /* object-fit: cover; */
+            /* object-position: 50% 50%; */
+            padding-left: 50px;
+               padding-right: 20px;
+               padding-bottom: 20px;
+               justify-content: center;
         }
     
         #trees{
-            width: 100%;
-            object-fit: cover;
-            object-position: 30% 40%;
+            width: 80%;
+            /* object-fit: cover; */
+            /* object-position: 50% 50%; */
+            padding-left: 50px;
+               padding-right: 20px;
+               padding-bottom: 20px;
+               justify-content: center;
         }
     
         #longing{
-            width: 100%;
-            object-fit: cover;
-            object-position: 50% 50%;
+            width: 80%;
+            /* object-fit: cover; */
+            /* object-position: 50% 50%; */
+            padding-left: 50px;
+               padding-right: 20px;
+               padding-bottom: 20px;
+               justify-content: center;
+        }
+
+        #bjork{
+            width: 80%;
+            /* object-fit: cover; */
+            /* object-position: 50% 50%; */
+            padding-left: 50px;
+               padding-right: 20px;
+               padding-bottom: 20px;
+               justify-content: center;
         }
  
  
