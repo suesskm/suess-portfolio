@@ -39,20 +39,41 @@
             </div>
           </div>
 
-<!-- <a href="https://suesskm.github.io/suess-portfolio/" id="kayla">Kayla Suess</a> -->
 <a href="https://drive.google.com/file/d/13CASPPf21mC_VoudvWzQ_vcd3SQ6RDgz/view?usp=sharing"id="resume">Resume</a>
 <a href="https://www.linkedin.com/in/kayla-suess1/"id="contact">LinkedIn</a>
 <a href="html/about.html"id="contact">About</a>
 
-
-
-
 </div>
 
 
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active"> <h1>Kayla Suess</h1>
+    <h2>*</h2></a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>  
+
+
+
+
+
+
+
 <div class="flex-container-main">
-        <h1>Kayla Suess</h1>
-        <h2>*</h2>
+    <h1>Kayla Suess</h1>
+    <h2>*</h2></a>     
        
     
            
@@ -238,6 +259,16 @@
     
 
 </div>
+<script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
 
      <script src="js/script.js"></script>  
 </body>
