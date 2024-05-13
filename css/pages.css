@@ -39,10 +39,12 @@ h3{
     justify-content: left;
     padding-left: 25px;
     padding-right: 20px;
+    text-decoration: none;
 }
 
 #kayla:hover{
     color: #da407b;
+    text-decoration: none;
 }
 
 #contact{
@@ -50,10 +52,12 @@ h3{
     text-align: left; /* Added property to align text on the left */
     color: #000000;
     padding-right: 20px;
+    text-decoration: none;
 }
 
 #contact:hover{
     color: #da407b;
+    text-decoration: none;
 }
 
 #resume{
@@ -62,10 +66,12 @@ h3{
     color: #000000;
     font-family: 'Michroma', sans-serif;
     padding-right: 20px;
+    text-decoration: none;
 }
 
 #resume:hover{
     color: #da407b;
+    text-decoration: none;
 }
 
 
@@ -100,6 +106,8 @@ p{
     /* padding-right: 100px;
     padding-left: 100px; */
     padding-bottom: 20px; 
+    padding-left: 20px;
+    padding-right: 20px;
 
 }
 
@@ -250,6 +258,54 @@ flex-wrap: nowrap;
     /* height: 100%; */
 
 }
+
+.mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #F2F0EB;
+    height: 500px;;
+    border-radius: 10px;
+    display: none;
+    padding-bottom: 20px;
+  }
+  
+
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'courier new', sans-serif;
+    font-size: 17px;
+    display: none;
+    background-color: #F2F0EB;
+  }
+  
+  .topnav a.icon {
+   background-color:#F2F0EB ;
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #da407b;
+   
+  }
+  
+  .active {
+
+    color: #F2F0EB;
+  }
+
+  .flex-container-header{
+    display: flex;
+  }
 
 /* ---------------iphone 5/SE --------------*/
 
@@ -466,8 +522,7 @@ h3{
         /* object-fit: cover; */
         /* object-position: 50% 50%; */
         padding-left: 50px;
-           padding-right: 20px;
-           padding-bottom: 20px;
+
            justify-content: center;
     }
 }
@@ -555,5 +610,55 @@ h3{
 
         
     
-     
+
+
+
+
+        .mobile-container {
+            max-width: 480px;
+            margin: auto;
+            background-color: #F2F0EB;
+            height: 500px;;
+            border-radius: 10px;
+            display: none;
+            padding-bottom: 20px;
+          }
+          
+        
+          
+          .topnav #myLinks {
+            display: none;
+          }
+          
+          .topnav a {
+            color: black;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-family: 'courier new', sans-serif;
+            font-size: 17px;
+            display: none;
+            background-color: #F2F0EB;
+          }
+          
+          .topnav a.icon {
+           background-color:#F2F0EB ;
+            display: none;
+            position: absolute;
+            right: 0;
+            top: 0;
+          }
+          
+          .topnav a:hover {
+            background-color: #da407b;
+           
+          }
+          
+          .active {
+        
+            color: #F2F0EB;
+          }
+        
+          .flex-container-header{
+            display: flex;
+          }   
    
