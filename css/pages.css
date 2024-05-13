@@ -380,6 +380,10 @@ flex-wrap: nowrap;
     #contact{
        font-family: 'courier new', sans-serif;
     }
+
+    #kayla{
+        font-family: 'courier new', sans-serif;
+    }
    
     .flex-container-pages{
         display: block;
