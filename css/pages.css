@@ -111,6 +111,15 @@ p{
 
 }
 
+a{
+    text-decoration:none;
+
+}
+
+a:hover{
+    color: #da407b;
+}
+
 .flex-container-pages{
    display: block;
    justify-content: center;
