@@ -649,71 +649,71 @@ h2{
      
      #postmodern{
          width: 80%;
-         /* object-fit: cover; */
-         /* object-position: 50% 50%; */
-         padding-left: 20px;
-            padding-right: 20px;
-            padding-bottom: 20px;
+          object-fit: cover; 
+          object-position: 50% 50%; 
+         padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
             justify-content: center;
             
         }
     
         #forum{
             width: 80%;
-            /* object-fit: cover; */
-            /* object-position: 50% 50%; */
-            padding-left: 20px;
-               padding-right: 20px;
+             object-fit: cover; 
+             object-position: 50% 50%; 
+            padding-left: 10px;
+               padding-right: 10px;
                padding-bottom: 20px;
                justify-content: center;
         }
     
         #cal{
             width: 80%;
-         /* object-fit: cover; */
-         /* object-position: 50% 50%; */
-         padding-left: 20px;
-            padding-right: 20px;
+          object-fit: cover; 
+          object-position: 50% 50%; 
+         padding-left: 10px;
+            padding-right: 10px;
             padding-bottom: 20px;
             justify-content: center;
         }
     
         #lamosca{
             width: 80%;
-            /* object-fit: cover; */
-            /* object-position: 50% 50%; */
-            padding-left: 20px;
-               padding-right: 20px;
+             object-fit: cover; 
+            object-position: 50% 50%; 
+            padding-left: 10px;
+               padding-right: 10px;
                padding-bottom: 20px;
                justify-content: center;
         }
     
         #trees{
             width: 80%;
-            /* object-fit: cover; */
-            /* object-position: 50% 50%; */
-            padding-left: 20px;
-               padding-right: 20px;
+             object-fit: cover; 
+             object-position: 50% 50%; 
+            padding-left: 10px;
+               padding-right: 10px;
                padding-bottom: 20px;
                justify-content: center;
         }
     
         #longing{
             width: 80%;
-            /* object-fit: cover; */
-            /* object-position: 50% 50%; */
-            padding-left: 20px;
-               padding-right: 20px;
+             object-fit: cover; 
+             object-position: 50% 50%; 
+            padding-left: 10px;
+               padding-right: 10px;
                padding-bottom: 20px;
                justify-content: center;
         }
 
         #bjork{
             width: 80%;
-            /* object-fit: cover; */
-            /* object-position: 50% 50%; */
-            padding-left: 20px;
-               padding-right: 20px;
+             object-fit: cover; 
+             object-position: 50% 50%; 
+            padding-left: 10px;
+               padding-right: 10px;
                padding-bottom: 20px;
                justify-content: center;
         }
